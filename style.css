@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 :root{
     --primaryColor: #e0e0e0;
@@ -26,6 +27,7 @@ body{
     min-height: 100vh;
     max-height: 100vh;
     background-color: var(--primaryColor);
+    overflow: hidden;
     /* padding-top: 100px; */
 }
 body::before{
